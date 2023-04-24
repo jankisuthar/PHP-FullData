@@ -1,0 +1,31 @@
+<html>
+   <head>   
+      <script type = "text/javascript">
+         function sayHello() 
+		 {
+		    var sum;
+			var a=10;
+			var b=20;
+			sum=a+b;
+            document.write ("sum of a & b are : " + sum);
+         }
+		 
+		 
+		 // function argument/parameter
+		 function sayHello1(a, b) 
+		 {
+			var sum;
+			sum=a+b;
+            document.write("sum of a & b are : " + sum);
+         }
+      </script>
+      
+   </head>
+   
+   <body>
+      <form>
+         <input type = "button" onclick = "sayHello()" value = "Say Hello">
+		  <input type = "button"  onmouseover= "sayHello1(5,6)" value = "Say Hello">
+      </form>      
+   </body>
+</html>

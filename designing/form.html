@@ -1,0 +1,122 @@
+<html>
+	<head>
+	</head>
+	
+	<!--  Method 2
+	
+	default method get  /// not use
+	
+	not secure // data deisplay in url
+	only 100 char get 
+	
+	
+	
+	use only post
+	-->
+	
+	<body>
+		<form action="" method="post">
+		<table border="2">
+			<caption>Register Form</caption>
+			
+			<tr>
+				<td>Name</td>
+				<td><input type="text" name="name" value="raj"></td>
+			</tr>
+			
+			<tr>
+				<td>User Name / Email</td>
+				<td><input type="email" name="email"></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" name="pass"></td>
+			</tr>
+			
+			<tr>
+				<td>Number</td>
+				<td><input type="number" name="Number"></td>
+			</tr>
+			
+			
+			<tr>
+				<td>Mobile</td>
+				<td><input type="number" name="mobile"></td>
+			</tr>
+			
+			<tr>
+				<td>Gender</td>
+				<td>
+					Male:<input type="radio" name="gen" value="Male">
+					Female:<input type="radio" name="gen" value="Female">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Lau</td>
+				<td>
+					Hindi:<input type="checkbox" name="lag[]" value="Hindi">
+					English:<input type="checkbox" name="lag[]" value="English">
+					Gujarati:<input type="checkbox" name="lag[]" value="Gujarati">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Date of Birth</td>
+				<td><input type="date" name="dob"></td>
+			</tr>
+			
+			<tr>
+				<td>Time</td>
+				<td><input type="time" name="time"></td>
+			</tr>
+				
+			<tr>
+				<td>Date & Time</td>
+				<td><input type="datetime-local" name="datetime"></td>
+			</tr>
+			
+			<tr>
+				<td>Profile Pic</td>
+				<td><input type="file" name="profile" multiple></td>
+			</tr>
+			
+			<tr>
+				<td>Color</td>
+				<td><input type="color" name="color"></td>
+			</tr>
+			
+			<tr>
+				<td>Address</td>
+				<td>
+				<textarea name="adres" cols="40" rows="5"></textarea>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Country</td>
+				<td>
+					<select name="country">
+						<option>----Select Country-----</option>
+						<option value="India">India</option>
+						<option value="Japan">Japan</option>
+						<option value="USA">USA</option>
+						<option value="UK">UK</option>
+						
+					</select>	
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+				<input type="submit" name="reg" value="Register Here">
+				<input type="reset" >
+				</td>
+			</tr>
+			
+			
+		</table>
+		</form>
+	</body>
+	
+</html>

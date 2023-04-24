@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<inquiry>
+
+<inq_id>1</inq_id>
+<email>rajeshnagarn@gmail.com</email>
+<sub>price</sub>
+<comment>what  price</comment>
+<status>Pending</status>
+
+<inq_id>2</inq_id>
+<email>manali.shah59@gmail.com</email>
+<sub>course</sub>
+<comment>course details</comment>
+<status>Sent</status>
+
+</inquiry>
